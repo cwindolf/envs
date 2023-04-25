@@ -1,16 +1,16 @@
 # envs
 
 ```bash
-mamba create -n jupy python=3.10 jupyterlab jupytext ipywidgets widgetsnbextension nodejs nb_conda_kernels
+mamba create -n jupy python=3.10 jupyterlab jupytext ipywidgets widgetsnbextension nodejs nb_conda_kernels python-lsp-server black pyright jupyterlab-lsp
 mamba activate jupy
-jupyter labextension install @ryantam626/jupyterlab_sublime
+pip install jupyterlab-sublime jupyterlab-code-formatter
 ```
 
 ```bash
-mamba create -n a python=3.10 numba seaborn scikit-learn scikit-image ipywidgets h5py colorcet tqdm joblib hdbscan cython
+mamba create -n a python=3.10 numba seaborn scikit-learn scikit-image ipywidgets h5py colorcet tqdm joblib hdbscan cython matplotlib-venn
 mamba activate a
 # go to pytorch.org and find install instructions if you want gpu!
 mamba install pytorch torchvision torchaudio -c pytorch
-pip install matplotlib_venn ibllib
-pip install -e ~/spikeinterface/ ~/spike-psvae/ ~/dredgefigs/
+pip install ibllib
+# -e install your local repositories
 ```
