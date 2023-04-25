@@ -1,5 +1,9 @@
 # envs
 
+Get mambaforge: https://github.com/conda-forge/miniforge
+
+The below stuff only works with `mamba`, `conda` has trouble getting env `a` together.
+
 ```bash
 mamba create -n jupy python=3.10 jupyterlab jupytext ipywidgets widgetsnbextension nodejs nb_conda_kernels python-lsp-server black pyright jupyterlab-lsp
 mamba activate jupy
