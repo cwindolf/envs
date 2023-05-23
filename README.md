@@ -16,5 +16,7 @@ mamba activate a
 # go to pytorch.org and find install instructions if you want gpu!
 mamba install pytorch torchvision torchaudio -c pytorch
 pip install ibllib
-# -e install your local repositories
+# pip -e install . your local repositories
 ```
+
+I would recommend installing spikeinterface, probeinterface, and neo locally from their git repos: https://github.com/SpikeInterface/probeinterface, https://github.com/SpikeInterface/spikeinterface, https://github.com/NeuralEnsemble/python-neo
