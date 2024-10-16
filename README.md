@@ -5,10 +5,8 @@ Get mambaforge: https://github.com/conda-forge/miniforge
 The below stuff only works with `mamba`, `conda` has trouble getting env `a` together.
 
 ```bash
-mamba create -n jupy python=3.11 "jupyterlab>=4" jupytext ipywidgets widgetsnbextension nodejs nb_conda_kernels python-lsp-server black pyright jupyterlab-lsp ipympl
-# or, mamba create -n jupy python=3.10 "jupyterlab>=4" jupytext ipywidgets widgetsnbextension nodejs nb_conda_kernels black 
+mamba create -n jupy python=3.11 "jupyterlab>=4.1.0,<5.0.0a0" jupytext ipywidgets widgetsnbextension nodejs nb_conda_kernels black jupyterlab-lsp python-lsp-server ipympl -c conda-forge
 mamba activate jupy
-pip install jupyterlab-sublime jupyterlab-code-formatter
 ```
 
 ```bash
