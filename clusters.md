@@ -2,6 +2,7 @@
 
 ## Part 1: `ssh` and `tmux`
 
+$f(x)$
 
 ## Part 2: Setting up `conda`
 
