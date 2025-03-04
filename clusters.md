@@ -2,7 +2,7 @@
 
 ## Part 1: `ssh` and `tmux`
 
-$f(x)$
+github. the ssh-agent.
 
 ## Part 2: Setting up `conda`
 
@@ -18,4 +18,8 @@ Reading between the lines for resources
 
 ## Part 5: Making Jupyter your own
 
-jupytext, jupyterlab-lsp
+jupytext, jupyterlab-lsp, catppucin
+
+## See also
+
+disBatch
