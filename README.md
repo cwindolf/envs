@@ -17,3 +17,10 @@ pip install ibllib
 ```
 
 I would recommend installing spikeinterface, probeinterface, and neo locally from their git repos: https://github.com/SpikeInterface/probeinterface, https://github.com/SpikeInterface/spikeinterface, https://github.com/NeuralEnsemble/python-neo
+
+current gpu dev...
+
+```bash
+mamba create -n dart python=3.12 pytorch-gpu cupy dask-jobqueue seaborn scikit-learn pytest opt-
+einsum h5py "scipy>=1.15" numba pydantic tqdm ipywidgets ipykernel spikeinterface pytest-cov
+```
