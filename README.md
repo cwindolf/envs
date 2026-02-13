@@ -3,7 +3,7 @@
 Get miniforge: https://github.com/conda-forge/miniforge
 
 ```bash
-mamba create -n jupy python=3.12 jupyterlab jupytext ipywidgets widgetsnbextension nodejs nb_conda_kernels jupyterlab-lsp pyright jedi-language-server ipympl
+mamba create -n jupy python=3.13 jupyterlab ipywidgets ipykernel nb_conda_kernels seaborn jupytext ipython ipykernel widgetsnbextension nodejs jupyterlab-lsp basedpyright jedi-language-server ipympl
 mamba activate jupy
 ```
 
