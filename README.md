@@ -25,6 +25,11 @@ mamba create -n dart python=3.12 pytorch-gpu cupy dask-jobqueue seaborn scikit-l
 einsum h5py "scipy>=1.15" numba pydantic tqdm ipywidgets ipykernel spikeinterface pytest-cov
 ```
 
+ - bullet point
+   ```sh
+   code in bullet point
+   ```
+
 <details>
   <summary><h3>I am testing GFM</summary>
     details
