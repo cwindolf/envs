@@ -24,3 +24,12 @@ current gpu dev...
 mamba create -n dart python=3.12 pytorch-gpu cupy dask-jobqueue seaborn scikit-learn pytest opt-
 einsum h5py "scipy>=1.15" numba pydantic tqdm ipywidgets ipykernel spikeinterface pytest-cov
 ```
+
+<details>
+  <summary><h3>I am testing GFM</summary>
+    details
+    
+    ### head
+
+    details
+</details>
